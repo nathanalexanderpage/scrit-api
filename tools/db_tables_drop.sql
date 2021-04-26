@@ -1,0 +1,11 @@
+DROP TABLE characters_events;
+DROP TABLE events_event_tags;
+DROP TABLE event_tags;
+DROP TABLE events;
+DROP TABLE characters;
+DROP TABLE characters_meta;
+DROP TABLE locations;
+DROP TABLE locations_meta;
+DROP TABLE timelines;
+DROP TABLE project_notes;
+DROP TABLE projects;

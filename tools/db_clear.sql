@@ -1,0 +1,11 @@
+DELETE FROM characters_events WHERE event_id > 0;
+DELETE FROM events_event_tags WHERE event_id > 0;
+DELETE FROM event_tags WHERE id > 0;
+DELETE FROM events WHERE id > 0;
+DELETE FROM characters WHERE id > 0;
+DELETE FROM characters_meta WHERE id > 0;
+DELETE FROM locations WHERE id > 0;
+DELETE FROM locations_meta WHERE id > 0;
+DELETE FROM timelines WHERE id > 0;
+DELETE FROM project_notes WHERE id > 0;
+DELETE FROM projects WHERE id > 0;
