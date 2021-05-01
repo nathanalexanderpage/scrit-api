@@ -1,6 +1,5 @@
 import { env } from "./env";
 import fs from "fs-extra";
-import path from "path";
 import { Client } from "pg";
 
 const createDatabase = async () => {
