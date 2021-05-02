@@ -20,13 +20,13 @@
     "typescript": "^4.2.4"
   },
   "scripts": {
-    "dbbuild":"npm run dbinit && npm run dbcreatetables",
-    "dbwipe":"npm run dbclear && npm run dbdroptables",
-    "dbinit":"node dist/dbInit.js",
-    "dbcreatetables":"node dist/dbTablesCreate.js",
-    "dbclear":"node dist/dbClear.js",
-    "dbdroptables":"node dist/dbTablesDrop.js",
-    "dbdrop":"node dist/dbDrop.js",
+    "dbbuild": "npm run dbinit && npm run dbcreatetables",
+    "dbwipe": "npm run dbcleartables && npm run dbdroptables",
+    "dbinit": "node dist/dbInit.js",
+    "dbcreatetables": "node dist/dbTablesCreate.js",
+    "dbcleartables": "node dist/dbTablesClear.js",
+    "dbdroptables": "node dist/dbTablesDrop.js",
+    "dbdrop": "node dist/dbDrop.js",
     "start": "node dist/app.js",
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
